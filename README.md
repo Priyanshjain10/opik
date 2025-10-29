@@ -123,4 +123,4 @@ test-ci:     ## Execute the necessary targets in the correct order for an automa
         make logs; make stop; exit $$return_code;
 
 .PHONY: usage install run start stop ready logs test-ci
-```
+```\n## Cloud Event Bus Usage in LocalStack\n\n> Tip: For scalable serverless apps, use the LocalStack Event Bus to handle cross-service events.\nEnable EVENT_BUS=true in your sample's .env to trigger test events in deployed Lambda functions.\n\n_Hacktoberfest 2025 cloud sample doc improvement by [Priyanshjain10](https://github.com/Priyanshjain10)_
